@@ -38,10 +38,10 @@
 #' between data and groupToPeriods, else use directly groupToPeriods
 #' @param ZoomButton \code{data.frame}, 3 or 4 columns : 
 #' \itemize{
-#'  \item{"Unit"}{ : Character. Times unit. 'ss', 'mm', 'hh', 'DD', 'MM', 'YYYY'}
-#'  \item{"multiple"}{ : Numeric. multiple*unit }
-#'  \item{"label"}{ : Character. button's label }
-#'  \item{"selected"}{ : Boolean. Optional. To set initial selection. (One TRUE, others FALSE)}
+#'  \item "Unit" : Character. Times unit. 'ss', 'mm', 'hh', 'DD', 'MM', 'YYYY'
+#'  \item "multiple" : Numeric. multiple*unit
+#'  \item "label" : Character. button's label
+#'  \item "selected" : Boolean. Optional. To set initial selection. (One TRUE, others FALSE)
 #'}
 #' @param ZoomButtonPosition \code{character}, zoom button position. Possible values are :
 #' "left", "right", "bottom", "top"

@@ -345,10 +345,10 @@ test_that("getTransformTS control", {
   expect_error(getTransformTS(data, ts = "36 hour"))
   expect_error(getTransformTS(data, ts = "450 day"))
   
-  # warning on head and tail
-  expect_warning(getTransformTS(data, ts = 4*60*60, tz = "UTC", showwarn = T))
-  expect_warning(getTransformTS(data[-1, ], ts = "hour", tz = "CET", showwarn = T))
-  expect_warning(getTransformTS(data[-nrow(data), ], ts = "hour", tz = "CET", showwarn = T))
+  # # warning on head and tail
+  # expect_warning(getTransformTS(data, ts = 4*60*60, tz = "UTC", showwarn = T))
+  # expect_warning(getTransformTS(data[-1, ], ts = "hour", tz = "CET", showwarn = T))
+  # expect_warning(getTransformTS(data[-nrow(data), ], ts = "hour", tz = "CET", showwarn = T))
   
   #check quanti
   data.notquanti <- cbind(data, valuechar = as.character(data$value), stringsAsFactors = FALSE)

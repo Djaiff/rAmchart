@@ -14,7 +14,7 @@ Description: Provides an R interface for using 'AmCharts' Library. Based on
     to this page <https://www.amcharts.com/online-store/> to purchase a licence,
     and thus support its creators and get a period of Priority Support. See also
     <https://www.amcharts.com/about/> for more information about 'AmCharts' company.
-Version: 2.1.15
+Version: 2.1.16
 Authors@R: c(
     person(given = "Benoit", family = "Thieurmel", email = "bthieurmel@gmail.com", role = c("aut", "cre")),
     person(given = "Antanas", family = " Marcelionis", role = c("aut", "cph"),
@@ -113,5 +113,5 @@ Suggests:
     base64enc,
     lubridate,
     jsonlite
-RoxygenNote: 7.1.2
+RoxygenNote: 7.2.1
 LazyData: true

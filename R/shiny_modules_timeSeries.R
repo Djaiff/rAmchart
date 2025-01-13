@@ -26,8 +26,8 @@
 #'                 Maximum number of consecutive NAs to fill. Defaut to Inf.
 #' @param type_aggr \code{character} Type of aggregation
 #' \itemize{
-#'  \item{"first"}{ : Date/Time result is equal to minimum of sequence, and this minimum is included in aggregation}
-#'  \item{"last"}{ : Date/Time result is equal to maximum of sequence, and this maximum is included in aggregation}
+#'  \item "first" : Date/Time result is equal to minimum of sequence, and this minimum is included in aggregation
+#'  \item "last" : Date/Time result is equal to maximum of sequence, and this maximum is included in aggregation
 #'}
 #' @param na.rm	: aggregation only. a logical value indicating whether NA values should be stripped before the computation proceeds.
 #' @param width \code{character}, the width of the chart container. For \code{amChartsOutput}.
@@ -53,10 +53,10 @@
 #' @param legendHidden \code{logical} hide some series on rendering ? Defaut to FALSE
 #' @param ZoomButton \code{data.frame}, 3 or 4 columns : 
 #' \itemize{
-#'  \item{"Unit"}{ : Character. Times unit. 'ss', 'mm', 'hh', 'DD', 'MM', 'YYYY'}
-#'  \item{"multiple"}{ : Numeric. multiple*unit }
-#'  \item{"label"}{ : Character. button's label }
-#'  \item{"selected"}{ : Boolean. Optional. To set initial selection. (One TRUE, others FALSE)}
+#'  \item "Unit" : Character. Times unit. 'ss', 'mm', 'hh', 'DD', 'MM', 'YYYY'
+#'  \item "multiple" : Numeric. multiple*unit
+#'  \item "label" : Character. button's label
+#'  \item "selected" : Boolean. Optional. To set initial selection. (One TRUE, others FALSE)
 #'}
 #' @param ZoomButtonPosition \code{character}, zoom button position. Possible values are :
 #' "left", "right", "bottom", "top"
@@ -315,8 +315,8 @@ rAmChartsTimeSeriesServer <- function(input, output, session, data,
 #'                 Maximum number of consecutive NAs to fill. Defaut to Inf.
 #' @param type_aggr : Character. Type of aggregation
 #' \itemize{
-#'  \item{"first"}{ : Date/Time result is equal to minimum of sequence, and this minimum is included in aggregation}
-#'  \item{"last"}{ : Date/Time result is equal to maximum of sequence, and this maximum is included in aggregation}
+#'  \item "first" : Date/Time result is equal to minimum of sequence, and this minimum is included in aggregation
+#'  \item "last" : Date/Time result is equal to maximum of sequence, and this maximum is included in aggregation
 #'}
 #' 
 #' @param na.rm	: aggregation only. a logical value indicating whether NA values should be stripped before the computation proceeds.
@@ -420,8 +420,8 @@ getCurrentStockData <- function(data, col_date, col_series, zoom = NULL, maxPoin
 #' @param keep_last : Boolean. Keep last date/time value after interpolation ?
 #' @param type_aggr : Character. Type of aggregation
 #' \itemize{
-#'  \item{"first"}{ : Date/Time result is equal to minimum of sequence, and this minimum is included in aggregation}
-#'  \item{"last"}{ : Date/Time result is equal to maximum of sequence, and this maximum is included in aggregation}
+#'  \item "first" : Date/Time result is equal to minimum of sequence, and this minimum is included in aggregation
+#'  \item "last" : Date/Time result is equal to maximum of sequence, and this maximum is included in aggregation
 #'}
 #'
 #' @param showwarn : Boolean. Show warnings ?

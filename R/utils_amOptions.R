@@ -32,7 +32,7 @@
 #' @details
 #' \strong{Exception:} 
 #' \itemize{
-#'  \item{It's not possible to export a gauge chart data as CSV.}
+#'  \item It's not possible to export a gauge chart data as CSV.
 #'  }
 #' 
 #' @import pipeR

@@ -8,11 +8,11 @@
 #' @param session standard, \code{shiny} session
 #' @param list_am_graph named list, reactive expression with all amCharts to export
 #' \itemize{
-#'  \item{"graph"}{rAmCharts object to export}
-#'  \item{"name"}{character, name of file, with ".jpg" extension}
-#'  \item{"width"}{Optionnal, character. Linked to \link{amChartsOutput}}
-#'  \item{"height"}{Optionnal, character. Linked to \link{amChartsOutput}}
-#'  \item{"type"}{Optionnal, character. Linked to \link{amChartsOutput}}
+#'  \item "graph" rAmCharts object to export
+#'  \item "name" character, name of file, with ".jpg" extension
+#'  \item "width" Optionnal, character. Linked to \link{amChartsOutput}
+#'  \item "height" Optionnal, character. Linked to \link{amChartsOutput}
+#'  \item "type" Optionnal, character. Linked to \link{amChartsOutput}
 #'}
 #' @param path character, directory. tempdir() by Defaut
 #' @param mode character, 'single' : graphics are rendered and saved one by one. 'multiple' all at same time

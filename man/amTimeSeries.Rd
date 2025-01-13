@@ -40,13 +40,13 @@ amTimeSeries(
   group = NULL,
   is_ts_module = FALSE,
   dataDateFormat = "YYYY-MM-DD JJ:NN:SS",
-  categoryBalloonDateFormats = list(list(period = "YYYY", format = "YYYY"), list(period
-    = "MM", format = "YYYY-MM"), list(period = "WW", format = "YYYY-MM-DD"), list(period
-    = "DD", format = "YYYY-MM-DD"), list(period = "hh", format = "YYYY-MM-DD JJ:NN"),
+  categoryBalloonDateFormats = list(list(period = "YYYY", format = "YYYY"), list(period =
+    "MM", format = "YYYY-MM"), list(period = "WW", format = "YYYY-MM-DD"), list(period =
+    "DD", format = "YYYY-MM-DD"), list(period = "hh", format = "YYYY-MM-DD JJ:NN"),
     list(period = "mm", format = "YYYY-MM-DD JJ:NN"), list(period = "ss", format =
     "YYYY-MM-DD JJ:NN:SS"), list(period = "fff", format = "YYYY-MM-DD JJ:NN:SS")),
-  dateFormats = list(list(period = "YYYY", format = "YYYY"), list(period = "MM", format
-    = "MMM"), list(period = "WW", format = "MMM DD"), list(period = "DD", format =
+  dateFormats = list(list(period = "YYYY", format = "YYYY"), list(period = "MM", format =
+    "MMM"), list(period = "WW", format = "MMM DD"), list(period = "DD", format =
     "MMM DD"), list(period = "hh", format = "JJ:NN"), list(period = "mm", format =
     "JJ:NN"), list(period = "ss", format = "JJ:NN:SS"), list(period = "fff", format =
     "JJ:NN:SS")),
@@ -116,10 +116,10 @@ between data and groupToPeriods, else use directly groupToPeriods}
 
 \item{ZoomButton}{\code{data.frame}, 3 or 4 columns : 
 \itemize{
- \item{"Unit"}{ : Character. Times unit. 'ss', 'mm', 'hh', 'DD', 'MM', 'YYYY'}
- \item{"multiple"}{ : Numeric. multiple*unit }
- \item{"label"}{ : Character. button's label }
- \item{"selected"}{ : Boolean. Optional. To set initial selection. (One TRUE, others FALSE)}
+ \item "Unit" : Character. Times unit. 'ss', 'mm', 'hh', 'DD', 'MM', 'YYYY'
+ \item "multiple" : Numeric. multiple*unit
+ \item "label" : Character. button's label
+ \item "selected" : Boolean. Optional. To set initial selection. (One TRUE, others FALSE)
 }}
 
 \item{ZoomButtonPosition}{\code{character}, zoom button position. Possible values are :

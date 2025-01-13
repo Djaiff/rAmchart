@@ -17,8 +17,8 @@ rAmChartsTimeSeriesServer(
   col_series,
   maxPoints = shiny::reactive(600),
   tz = shiny::reactive("UTC"),
-  ts = shiny::reactive(c("5 min", "10 min", "30 min", "hour", "3 hour", "12 hour",
-    "day", "week", "month", "year")),
+  ts = shiny::reactive(c("5 min", "10 min", "30 min", "hour", "3 hour", "12 hour", "day",
+    "week", "month", "year")),
   fun_aggr = shiny::reactive("mean"),
   treat_missing = shiny::reactive(FALSE),
   maxgap = shiny::reactive(Inf),
@@ -57,11 +57,11 @@ rAmChartsTimeSeriesServer(
     = "YYYY-MM-DD JJ:NN"), list(period = "mm", format = "YYYY-MM-DD JJ:NN"), list(period
     = "ss", format = "YYYY-MM-DD JJ:NN:ss"), list(period = "fff", format =
     "YYYY-MM-DD JJ:NN:ss"))),
-  dateFormats = shiny::reactive(list(list(period = "YYYY", format = "YYYY"),
-    list(period = "MM", format = "MMM"), list(period = "WW", format = "MMM DD"),
-    list(period = "DD", format = "MMM DD"), list(period = "hh", format = "JJ:NN"),
-    list(period = "mm", format = "JJ:NN"), list(period = "ss", format = "JJ:NN:ss"),
-    list(period = "fff", format = "JJ:NN:ss"))),
+  dateFormats = shiny::reactive(list(list(period = "YYYY", format = "YYYY"), list(period
+    = "MM", format = "MMM"), list(period = "WW", format = "MMM DD"), list(period = "DD",
+    format = "MMM DD"), list(period = "hh", format = "JJ:NN"), list(period = "mm", format
+    = "JJ:NN"), list(period = "ss", format = "JJ:NN:ss"), list(period = "fff", format =
+    "JJ:NN:ss"))),
   thousandsSeparator = shiny::reactive(" "),
   decimalSeparator = shiny::reactive("."),
   balloonFontSize = shiny::reactive(10),
@@ -111,8 +111,8 @@ Maximum number of consecutive NAs to fill. Defaut to Inf.}
 
 \item{type_aggr}{\code{character} Type of aggregation
 \itemize{
- \item{"first"}{ : Date/Time result is equal to minimum of sequence, and this minimum is included in aggregation}
- \item{"last"}{ : Date/Time result is equal to maximum of sequence, and this maximum is included in aggregation}
+ \item "first" : Date/Time result is equal to minimum of sequence, and this minimum is included in aggregation
+ \item "last" : Date/Time result is equal to maximum of sequence, and this maximum is included in aggregation
 }}
 
 \item{na.rm}{: aggregation only. a logical value indicating whether NA values should be stripped before the computation proceeds.}
@@ -152,10 +152,10 @@ Maximum number of consecutive NAs to fill. Defaut to Inf.}
 
 \item{ZoomButton}{\code{data.frame}, 3 or 4 columns : 
 \itemize{
- \item{"Unit"}{ : Character. Times unit. 'ss', 'mm', 'hh', 'DD', 'MM', 'YYYY'}
- \item{"multiple"}{ : Numeric. multiple*unit }
- \item{"label"}{ : Character. button's label }
- \item{"selected"}{ : Boolean. Optional. To set initial selection. (One TRUE, others FALSE)}
+ \item "Unit" : Character. Times unit. 'ss', 'mm', 'hh', 'DD', 'MM', 'YYYY'
+ \item "multiple" : Numeric. multiple*unit
+ \item "label" : Character. button's label
+ \item "selected" : Boolean. Optional. To set initial selection. (One TRUE, others FALSE)
 }}
 
 \item{ZoomButtonPosition}{\code{character}, zoom button position. Possible values are :

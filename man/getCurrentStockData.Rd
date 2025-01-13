@@ -53,8 +53,8 @@ Maximum number of consecutive NAs to fill. Defaut to Inf.}
 
 \item{type_aggr}{: Character. Type of aggregation
 \itemize{
- \item{"first"}{ : Date/Time result is equal to minimum of sequence, and this minimum is included in aggregation}
- \item{"last"}{ : Date/Time result is equal to maximum of sequence, and this maximum is included in aggregation}
+ \item "first" : Date/Time result is equal to minimum of sequence, and this minimum is included in aggregation
+ \item "last" : Date/Time result is equal to maximum of sequence, and this maximum is included in aggregation
 }}
 
 \item{na.rm}{: aggregation only. a logical value indicating whether NA values should be stripped before the computation proceeds.}

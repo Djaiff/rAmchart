@@ -31,11 +31,11 @@ rAmChartsExportServer(
 
 \item{list_am_graph}{named list, reactive expression with all amCharts to export
 \itemize{
- \item{"graph"}{rAmCharts object to export}
- \item{"name"}{character, name of file, with ".jpg" extension}
- \item{"width"}{Optionnal, character. Linked to \link{amChartsOutput}}
- \item{"height"}{Optionnal, character. Linked to \link{amChartsOutput}}
- \item{"type"}{Optionnal, character. Linked to \link{amChartsOutput}}
+ \item "graph" rAmCharts object to export
+ \item "name" character, name of file, with ".jpg" extension
+ \item "width" Optionnal, character. Linked to \link{amChartsOutput}
+ \item "height" Optionnal, character. Linked to \link{amChartsOutput}
+ \item "type" Optionnal, character. Linked to \link{amChartsOutput}
 }}
 
 \item{path}{character, directory. tempdir() by Defaut}
