@@ -89,7 +89,7 @@ There are two ways to load them. Choose the one that is right:
 All libraries required for plugin operation are included withing plugins */libs*
 subdirectory.
 
-The plugin will automatically try to look in chart's [`path`](http://docs.amcharts.com/3/javascriptcharts/AmSerialChart#path)
+The plugin will automatically try to look in chart's [`path`](https://docs.amcharts.com/3/javascriptcharts/AmSerialChart#path)
 property. If your plugin files are located within plugins folder under amcharts
 (as is the case with the default distributions), you don't need to do anything -
 the libraries will load on-demand.
@@ -665,7 +665,7 @@ action | Set to "draw" if you want the item to trigger annotation mode
 class | Class name applied to the tag
 click | Function handler invoked upon click on menu item
 format | A format to export chart/map to upon click (see below for a list of available formats)
-icon | Icon file (will use chart's [path](http://docs.amcharts.com/3/javascriptcharts/AmSerialChart#path) if the URL is not full)
+icon | Icon file (will use chart's [path](https://docs.amcharts.com/3/javascriptcharts/AmSerialChart#path) if the URL is not full)
 label | Text label to be displayed
 menu | An array of submenu items
 title | A title attribute of the link
@@ -1391,7 +1391,7 @@ http://www.apache.org/licenses/LICENSE-2.0
 
 ### 1.0.6
 * Fix: issue on revalidation the chart/map
-* Added: [path](http://docs.amcharts.com/3/javascriptcharts/AmSerialChart#path) to load the libaries by default
+* Added: [path](https://docs.amcharts.com/3/javascriptcharts/AmSerialChart#path) to load the libaries by default
 
 ### 1.0.5
 * Added: divId to be able to place the menu within an external container

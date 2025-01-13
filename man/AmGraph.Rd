@@ -57,7 +57,7 @@ XY and Radar charts can only display "line" otherArguments graphs.}
 name of the value field in your dataProvider.}
 
 \item{...}{other properties of AmGraph.
-See \url{http://docs.amcharts.com/3/javascriptcharts/AmGraph}.}
+See \url{https://docs.amcharts.com/3/javascriptcharts/AmGraph}.}
 }
 \value{
 An object of class \linkS4class{AmGraph} with the given properties.

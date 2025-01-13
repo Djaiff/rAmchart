@@ -41,7 +41,7 @@ amSerialChart(dataProvider = data_bar, categoryField = "country") %>%
            lineColorField = "color", fillColorsField = "color",
            balloonText = "The value for [[category]] is [[value]]")
 # plus de détails avec la commande api("AmGraph")
-# i.e. sur la page http://docs.amcharts.com/3/javascriptstockchart/AmGraph
+# i.e. sur la page https://docs.amcharts.com/3/javascriptstockchart/AmGraph
 
 
 

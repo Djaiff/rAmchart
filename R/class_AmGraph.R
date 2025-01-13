@@ -56,7 +56,7 @@ setClass (Class = "AmGraph", contains = "AmObject",
 #' @param valueField \code{character}, 
 #' name of the value field in your dataProvider.
 #' @param ... other properties of AmGraph.
-#' See \url{http://docs.amcharts.com/3/javascriptcharts/AmGraph}.
+#' See \url{https://docs.amcharts.com/3/javascriptcharts/AmGraph}.
 #' 
 #' @return An object of class \linkS4class{AmGraph} with the given properties.
 #' 
