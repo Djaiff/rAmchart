@@ -15,7 +15,7 @@ NULL
 #' fromField is the name of your value field in dataProvider.
 #' toField might be chosen freely,
 #' it will be used to set value/open/close/high/low fields for the StockChart.
-#' Example: {fromField:"val1", toField:"value"}.
+#' Example: (fromField:"val1", toField:"value").
 #' @slot stockEvents \code{list} of \linkS4class{StockEvent}.
 #' @slot listeners \code{list} containining the listeners to add to the object.
 #' The list must be named as in the official API. Each element must be a character string.

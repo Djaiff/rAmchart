@@ -554,7 +554,6 @@ add_animate_dependency <- function(widget)
 #' @return Return an updated htmlwidget with the dependency.
 #' 
 #' @noRd
-#' @export
 #'
 .add_language_dependency <- function(widget, data)
 {

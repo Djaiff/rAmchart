@@ -22,7 +22,7 @@ Field mapping is an object with fromField and toField properties.
 fromField is the name of your value field in dataProvider.
 toField might be chosen freely,
 it will be used to set value/open/close/high/low fields for the StockChart.
-Example: {fromField:"val1", toField:"value"}.}
+Example: (fromField:"val1", toField:"value").}
 
 \item{\code{stockEvents}}{\code{list} of \linkS4class{StockEvent}.}
 
